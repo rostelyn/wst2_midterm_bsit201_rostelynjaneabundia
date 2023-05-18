@@ -21,6 +21,9 @@
         <div>
             <button type="button">Sign In</button>
         </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/login.js"></script>
     </form>
 </body>
 </html>
