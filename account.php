@@ -6,7 +6,7 @@ class Accounts{
         $username = $_POST['username'];
         $password = $_POST['password'];
 
-        $pdo = new PDO('mysql:host=localhost;dbname=chatroom','root','');
+        $pdo = new PDO('mysql:host=localhost;dbname=bsit201_abundia_chatroom','root','');
 
         $account = $pdo->prepare('SELECT * FROM accounts WHERE username=:username and password=:password');
         $account->bindValue('username',$username);
